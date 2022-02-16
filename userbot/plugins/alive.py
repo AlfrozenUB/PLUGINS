@@ -67,7 +67,7 @@ async def amireallyalive(alive):
         ROYAL_caption += f"•🌟• **†ҽ̀lҽ́thøղ̃**     ~ `{version.__version__}`\n"
         ROYAL_caption += f"•🌟• **𝚄ρtime**         ~ `{uptime}`\n"
         ROYAL_caption += f"•🌟• **𝙶𝚛𝚘𝚞𝚙**           ~ [𝙶𝚛𝚘𝚞𝚙](t.me/BR_guild)\n"
-        ROYAL_caption += f"•🌟• **𝙼𝚢 𝙶𝚛𝚘𝚞𝚙**  ~ {CUSTOM_YOUR_GROUP}\n"
+        ROYAL_caption += f"•🌟• **𝙼𝚢 𝙶𝚛𝚘𝚞𝚙**     ~ {CUSTOM_YOUR_GROUP}\n"
 
         await alive.client.send_file(
             alive.chat_id, ROYAL_IMG, caption=ROYAL_caption, reply_to=reply_to_id
@@ -112,6 +112,7 @@ async def royal_a(event):
             await event.delete()
     except (noin, dedbot):
         await eor(event, msg)
+
 
 
 CmdHelp("alive").add_command("bot", None, "υѕє αи∂ ѕєє").add_command(
