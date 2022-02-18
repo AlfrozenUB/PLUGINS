@@ -296,7 +296,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 𝙻𝚎𝚐𝚎𝚗𝚍𝙱𝚘𝚝 ⚜**",
+                text=f"**⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 ROYAL B𝚘𝚝 ⚜**",
                 buttons=[
                     [Button.url("♥️ Tutorial ♥", "https://youtu.be/9dQgdUJfk_k")],
                     [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/THE-ROYALSBOT/ROYAL-USERBOT")],
