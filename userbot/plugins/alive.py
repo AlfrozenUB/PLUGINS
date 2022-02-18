@@ -80,7 +80,7 @@ async def amireallyalive(alive):
             f"~~~~~~~~~~~~~~~~~~~~~~~ \n"
             f"         \n"
             f"•⚡• 𝕿єℓєτнοи    : `{version.__version__}`\n"
-            f"🇮🇳 ℓєgєи∂ϐοτ  : `{ROYALversion}`\n"
+            f"🇮🇳 RᴏʏᴀʟBοτ  : `{ROYALversion}`\n"
             f"🇮🇳 υρτιмє        : `{uptime}`\n"
             f"🔱 ɱαรƭεɾ        : {mention}\n"
             f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/Samim3316)\n",
@@ -93,10 +93,10 @@ msg = f"""
        {Config.ALIVE_MSG}
     **  Bø✞︎ ẞ✞︎α✞︎µѕ **
 **•⚜️•Øաղ̃ҽ̈r     :** **{mention}**
-**•🌹•𝖑𝖊ɠêɳ̃dẞø✞︎  :** {ROYALversion}
+**•🌹•Rᴏʏᴀʟẞø✞︎  :** {ROYALversion}
 **•🌹•✞︎ҽ̀lҽ́ƭhøղ  :** {version.__version__}
 **•🌹•Ãbûßê     :**  {abuse_m}
-**•🌹•ßudø      :**  {is_sudo}
+**•🌹•Sudø      :**  {is_sudo}
 **•🌹•Bøt.      :** {Config.BOY_OR_GIRL}
 """
 botname = Config.BOT_USERNAME
