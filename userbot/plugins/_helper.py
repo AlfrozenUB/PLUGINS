@@ -17,7 +17,7 @@ else:
     botname = f"@{mybot}"
 
 msg = f"""
-**⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 𝙻𝚎𝚐𝚎𝚗𝚍𝙱𝚘𝚝 ⚜**
+**⚜ Legendary Af RoyalBot ⚜**
 
   •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/THE-ROYALSBOT/ROYAL-USERBOT)
   •        [♦️ Deploy ♦️](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTHE-ROYALSBOT%2FROYALBOT&template=https%3A%2F%2Fgithub.com%2FTHE-ROYALSBOT%2FROYALBOT)
