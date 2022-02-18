@@ -88,7 +88,7 @@ async def amireallyalive(alive):
 
 
 msg = f"""
-**  ⚜️ ROYAL USERBOT ιѕ σиℓιиє ⚜️**
+**  ⚜️ ROYAL USER ιѕ ONLINE ⚜️**
 
        {Config.ALIVE_MSG}
     **  Bø✞︎ ẞ✞︎α✞︎µѕ **
