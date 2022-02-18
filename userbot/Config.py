@@ -64,23 +64,23 @@ if ENV:
         # alive
         ALIVE_PIC = (
             os.environ.get("ALIVE_PIC", None)
-            or "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
+            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
         )
         PM_PIC = (
             os.environ.get("PM_PIC", None)
-            or "https://te.legra.ph/file/0c605739ddaa472cad75f.jpg"
+            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
         )
         AWAKE_PIC = (
             os.environ.get("AWAKE_PIC", None)
-            or "https://telegra.ph/file/47ffec836544b371408ab.mp4"
+            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
         )
         HELP_PIC = (
             os.environ.get("OP_PIC", None)
-            or "https://te.legra.ph/file/b5d01ceea49ee0a822661.mp4"
+            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
         )
         PING_PIC = (
             os.environ.get("PING_PIC", None)
-            or "https://te.legra.ph/file/ace5feae5b1ac8ea262ed.jpg"
+            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
         )
         ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "ROYAL USERBOT Is Online"
         PM_MSG = os.environ.get("PM_MSG", None)
