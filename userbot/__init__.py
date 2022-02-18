@@ -11,8 +11,8 @@ from var import Var
 
 BOTLOG = True
 StartTime = time.time()
-ROYALversion = "𝚅3.0"
-botversion = "𝚅3.0"
+ROYALversion = "𝚅1.0"
+botversion = "𝚅1.0"
 from .k import *
 
 if Config.ROYAL_STRING:
