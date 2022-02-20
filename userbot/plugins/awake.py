@@ -19,7 +19,7 @@ async def reply_id(event):
 
 
 ROYAL_IMG = Config.AWAKE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "ℓєgєи∂ Choice ℓєgєи∂ϐοτ"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "Royals Choice ROYALBOT"
 CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@BR_guild"
 
 
@@ -65,7 +65,7 @@ async def amireallyalive(event):
         ROYAL_caption = f"**{royal_mention}**\n"
 
         ROYAL_caption += f"~~~~~~~~~~~~~~~~~~~~~~~\n"
-        ROYAL_caption += f"     ⚜ 𝓛𝓮𝓰𝓮𝓷𝓭𝓑𝓸𝓽 𝓘𝓼 𝓐𝔀𝓪𝓴𝓮 ⚜\n"
+        ROYAL_caption += f"     ⚜ ROYALBOT IS AWAKE ⚜\n"
         ROYAL_caption += f"•🔥• ROYAL USERBOT     : ν1.0\n"
         ROYAL_caption += f"•🔥• 𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽      : `{version.__version__}`\n"
         ROYAL_caption += f"•🔥• 𝚄𝙿𝚃𝙸𝙼𝙴         : `{uptime}`\n"
