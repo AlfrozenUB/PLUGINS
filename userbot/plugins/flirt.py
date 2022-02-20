@@ -43,6 +43,9 @@ async def _(event):
         await event.edit(
             "Aap ek camera ki tarah ho jab bhi aapka photos dekhta hu meri automatic smile aaa jati hain"
         )
-
+    if s == 9:
+        await event.edit(
+            "ye cute si ladki jo hai ye ladki nhi hai ye to mera jaan hai"
+        )
 
 CmdHelp("flirt").add_command("flirth", None, "Try With Girl").add()
