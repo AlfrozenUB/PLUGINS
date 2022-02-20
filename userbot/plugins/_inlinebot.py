@@ -287,7 +287,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 )
             else:
                 result = builder.article(
-                    text=le_gend,
+                    text=ROYAL,
                     title="RoyalBot Alive",
                     buttons=var_btn,
                     link_preview=False,
@@ -296,7 +296,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 ROYAL B𝚘𝚝 ⚜**",
+                text=f"**⚜ Royality O𝚏 Royal B𝚘𝚝 ⚜**",
                 buttons=[
                     [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/THE-ROYALSBOT/ROYAL-USERBOT")],
                     [
@@ -364,7 +364,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 [Button.inline("As Usual", data="tg_okay")],
             ],
         )
-        yup_text = "`Warning`-❗️⚠️Don't send any message now wait kindly!!!❗️⚠️"
+        yup_text = "`Warning`-❗️⚠️Don't send any message until my owner comes online. Now wait kindly!!!❗️⚠️"
         await bot.send_message(royal.query.user_id, yup_text)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"tg_okay")))
