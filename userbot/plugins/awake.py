@@ -83,10 +83,10 @@ async def amireallyalive(event):
             f"~~~~~~~~~~~~~~~~~~~~~~~ \n"
             f"         𝕭𝖔𝖙 𝕾𝖙𝖆𝖙𝖚𝖘\n"
             f"•⚡• 𝕿єℓєτнοи    : `{version.__version__}`\n"
-            f"🇮🇳 ℓєgєи∂ϐοτ  : `{ROYALversion}`\n"
+            f"🇮🇳 ROYAL BOT  : `{ROYALversion}`\n"
             f"🇮🇳 υρτιмє        : `{uptime}`\n"
             f"🔱 ɱαรƭεɾ        : {mention}\n"
-            f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/Samim3316)\n",
+            f"🔱 σωɳεɾ         : [ROYAL](t.me/Samim3316)\n",
         )
 
 
