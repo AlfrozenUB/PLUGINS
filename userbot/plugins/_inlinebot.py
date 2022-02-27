@@ -22,7 +22,7 @@ royal_emoji1 = Config.EMOJI_IN_HELP1 or "⭐"
 royal_emoji2 = Config.EMOJI_IN_HELP2 or "⭐"
 alive_emoji = Config.ALIVE_EMOJI or "🔰"
 alive_name = Config.ALIVE_NAME or "RoyalBoy"
-royal_pic = Config.PM_PIC or "https://te.legra.ph/file/0c605739ddaa472cad75f.jpg"
+royal_pic = Config.PM_PIC or "https://te.legra.ph/file/dda2f819350fa08905930.jpg"
 cstm_pmp = Config.PM_MSG
 ALV_PIC = VAR_PIC = Config.ALIVE_PIC
 help_pic = Config.HELP_PIC
