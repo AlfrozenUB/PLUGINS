@@ -33,7 +33,7 @@ pm_caption += f"┣ ROYAL  ~ [C R E A T O R ](https://t.me/Samim3316)\n"
 pm_caption += f"┣ SUPPORT ~ [-G𝖗ουρ-](https://t.me/BR_guild)\n"
 pm_caption += f"┣ REPO   ~ [-Rєρο-](https://github.com/THE-ROYALSBOT/ROYAL-USERBOT)\n"
 pm_caption += f"┣ YOUTUBE ~ [ BEWAFA ROYALS](https://www.youtube.com/channel/UCJh9x131aTSxV3xX6XiT8nA)\n"
-pm_caption += f"┣ INSTAGRAM ~ [ ᴮᴿ᭄Ꮥᴀʍɪʍ✓ ](https://www.instagram.com/one_n_only_samim/)n"
+pm_caption += f"┣ INSTAGRAM ~ [ ᴮᴿ᭄Ꮥᴀʍɪʍ✓ ](https://www.instagram.com/one_n_only_samim/)\n"
 pm_caption += f"**╰────────────**\n"
 
 
