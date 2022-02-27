@@ -31,7 +31,7 @@ async def _(event):
         await asyncio.sleep(3.5)
         await edit_or_reply(
             event,
-            f"Your [ROYALBOT](https:/t.me/BR_guild) is working Fine...       Join @BR_guild For Any Help......\n"
+            "Your [ROYALBOT](https:/t.me/BR_guild) is working Fine...\n       join @BR_guild for more info......,
         )
 
 
