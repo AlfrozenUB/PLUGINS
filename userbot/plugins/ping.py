@@ -10,7 +10,7 @@ from . import *
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ROYAL User"
 royal = borg.uid
 ROYAL_IMG = os.environ.get(
-    "PING_PIC", "https://te.legra.ph/file/a59da36828333262c9848.jpg"
+    "PING_PIC", "https://te.legra.ph/file/dda2f819350fa08905930.jpg"
 )
 
 start = datetime.datetime.now()
@@ -23,7 +23,7 @@ ms = (end - start).microseconds / 1000
 async def _(event):
     if event.fwd_from:
         return
-    animation_interval = 0.2
+    animation_interval = 0.1
     animation_ttl = range(0, 26)
     await edit_or_reply(event, "ping....")
     animation_chars = [
@@ -70,10 +70,10 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    event = await edit_or_reply(event, "**(❛ ᑭσɳց ❜!**")
+    event = await edit_or_reply(event, "**(❛ \__P O N G__/ ❜!**")
     if ROYAL_IMG:
         royal_caption = (
-            f"**💞Pong💞**\n\n   🔸️ {ms}\n   🔹️ **𝙼𝚢** **𝙼𝚊𝚜𝚝𝚎𝚛** ~『{royal_mention}』"
+            f"**P O N G**\n\n   🔸️ {ms}\n   🔹️ **𝙼𝚢** **𝙼𝚊𝚜𝚝𝚎𝚛** ~『{royal_mention}』"
         )
         await event.client.send_file(event.chat_id, ROYAL_IMG, caption=royal_caption)
         await event.delete()
