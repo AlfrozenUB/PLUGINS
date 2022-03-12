@@ -23,7 +23,7 @@ async def send(event):
     message_id = event.message.id
     thumb = core_pic
     input_str = event.pattern_match.group(1)
-    omk = f"**⍟ 𝙿𝚕𝚞𝚐𝚒𝚗 𝚗𝚊𝚖𝚎 ≈** `{input_str}`\n**⍟ 𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 ≈** {royal_mention}\n\n⚜ **[ROYAL USERBOT](https://t.me/BR_guild)** ⚜"
+    omk = f"**⍟ 𝙿𝚕𝚞𝚐𝚒𝚗 𝚗𝚊𝚖𝚎 ≈** `{input_str}`\n**⍟ 𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 ≈** {royal_mention}\n\n⚜ **[Alfrozen Userbot](https://t.me/AnimeChatAura)** ⚜"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     the_1plugin_file = "./userbot/plugins/Abuse/{}.py".format(input_str)
     the_2plugin_file = "./userbot/plugins/Spam/{}.py".format(input_str)
@@ -125,7 +125,7 @@ async def install(event):
                                     b = 1
                                 await royal.edit(a)
                             return await royal.edit(
-                                f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {royal_mention}\n\n{string}\n\n        ⚡ **[ROYAL USERBOT]({chnl_link})** ⚡",
+                                f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {royal_mention}\n\n{string}\n\n        ⚡ **[Alfrozen Userbot]({chnl_link})** ⚡",
                                 link_preview=False,
                             )
 
@@ -230,7 +230,7 @@ async def install(event):
             )
             await edit_or_reply(
                 ROYAL_file,
-                f"**Output Too Large. This is the file for the list of plugins in L𝖊ɠêɳ̃dẞø✞︎**.\n\nBY :- **{DEFAULTUSER}**",
+                f"**Output Too Large. This is the file for the list of plugins in ALfrozenBot**.\n\nBY :- **{DEFAULTUSER}**",
             )
             await event.delete()
 
