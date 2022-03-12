@@ -22,10 +22,10 @@ bsdkwale_pic = "./userbot/resources/pics/bsdk_wale.jpg"
 chutiya_pic = "./userbot/resources/pics/chutiya.jpg"
 ROYALversion = "1.0"
 
-perf = "[ †hê ROYAL USERBOT ]"
+perf = "[Alfrozen USERBOT ]"
 
 
-DEVLIST = ["2020686239"]
+DEVLIST = ["5268671351"]
 
 
 async def setit(event, name, value):
