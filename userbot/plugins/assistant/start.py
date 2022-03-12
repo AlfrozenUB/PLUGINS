@@ -35,8 +35,8 @@ async def start(event):
             message=f"Hi Sir/Miss, It's Me {bot_id}, Your Assistant ! \nHow Can I help U?",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/BR_guild"),
-                    Button.url(" Updates ", "https://t.me/The_royal_users"),
+                    Button.url(" Support ", "https://t.me/AnimeChatAura"),
+                    Button.url(" Updates ", "https://t.me/Alfrozen"),
                 ],
                 [
                     custom.Button.inline("Users", data="users"),
@@ -57,7 +57,7 @@ async def start(event):
             buttons=[
                 [
                     custom.Button.inline(" Rules ", data="rules"),
-                    Button.url(" Support ", "https://t.me/BR_guild"),
+                    Button.url(" Support ", "https://t.me/ANimeChatAura"),
                 ],
                 [custom.Button.inline("Deploy Your RoyalBot", data="deploy")],
             ],
@@ -74,8 +74,8 @@ async def help(event):
             link_preview=False,
             buttons=[
                 [custom.Button.inline("Deploy your RoyalBot", data="fire")],
-                [Button.url("Help Me ❓", "https://t.me/BR_guild")],
-                [Button.url("Github Repo ❓", "github.com/THE-ROYALSBOT/ROYAL-USERBOT")],
+                [Button.url("Help Me ❓", "https://t.me/Animechataura")],
+                [Button.url("Github Repo ❓", "github.com/Kajukatliii/Alfrozen")],
             ],
         )
 
