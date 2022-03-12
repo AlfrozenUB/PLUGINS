@@ -7,12 +7,12 @@ from userbot.Config import Config
 from userbot.plugins import *
 
 ROYAL_IMG = os.environ.get(
-    "BOT_PING_PIC", "https://telegra.ph/file/a9f6a3c160977352dd595.jpg"
+    "BOT_PING_PIC", "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
 )
 ms = 4
 ALIVE = Config.ALIVE_NAME
 
-RoyalBoy = f"**꧁•⊹٭Ping٭⊹•꧂**\n\n   ⚜ {ms}\n   ⚜ ❝𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫❞ ~『{ALIVE}』"
+RoyalBoy = f"**⚡Ping⚡**\n\n   ⚜ {ms}\n   ⚜ ❝𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫❞ ~『{ALIVE}』"
 
 
 @tgbot.on(events.NewMessage(pattern="^/ping"))
