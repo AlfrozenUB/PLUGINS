@@ -43,18 +43,18 @@ async def hekp():
             await bot.send_file(
                 Config.LOGGER_ID,
                 ROYAL_PIC,
-                caption=f"Deployed ROYAL USERBOT Successfully\n\nROYAL USERBOT ~ {ROYALversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [RoyalBot Channel](t.me/The_royal_users) for Updates & [RoyalBot Chat](t.me/BR_guild) for any query regarding RoyalBot",
+                caption=f"Deployed ROYAL USERBOT Successfully\n\nALFROZEN USERBOT ~ {ROYALversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [RoyalBot Channel](t.me/ALFROZEN) for Updates & [RoyalBot Chat](t.me/ANIMECHATAYRA) for any query regarding AlfrozenBot",
             )
     except Exception as e:
         print(str(e))
 
     try:
-        await bot(JoinChannelRequest("@The_royal_users"))
+        await bot(JoinChannelRequest("@Alfrozen"))
     except BaseException:
         pass
 
     try:
-        await bot(JoinChannelRequest("@BR_guild"))
+        await bot(JoinChannelRequest("@AnimeCHATaurA"))
     except BaseException:
         pass
 
