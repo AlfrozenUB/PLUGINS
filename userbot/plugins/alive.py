@@ -62,11 +62,11 @@ async def amireallyalive(alive):
 
         ROYAL_caption += f"~~~~~~~~~~~~~~~~~~~~~~~\n"
         ROYAL_caption += f"        **✘𝕭𝖔† 𝕾𝖙𝖆𝖙𝖚𝖘✘** \n"
-        ROYAL_caption += f"•🔥• **Oաղ̃ҽ̈ɾ**          ~ {ALIVE_NAME}\n\n"
-        ROYAL_caption += f"•🌟• **𝖑𝖊ɠêɳ̃dẞø†**   ~ {ROYALversion}\n"
-        ROYAL_caption += f"•🌟• **†ҽ̀lҽ́thøղ̃**     ~ `{version.__version__}`\n"
+        ROYAL_caption += f"•🔥• **Ownwer**          ~ {ALIVE_NAME}\n\n"
+        ROYAL_caption += f"•🌟• **Version†**   ~ {ROYALversion}\n"
+        ROYAL_caption += f"•🌟• **Telethon**     ~ `{version.__version__}`\n"
         ROYAL_caption += f"•🌟• **𝚄ρtime**         ~ `{uptime}`\n"
-        ROYAL_caption += f"•🌟• **𝙶𝚛𝚘𝚞𝚙**           ~ [𝙶𝚛𝚘𝚞𝚙](t.me/BR_guild)\n"
+        ROYAL_caption += f"•🌟• **𝙶𝚛𝚘𝚞𝚙**           ~ [𝙶𝚛𝚘𝚞𝚙](t.me/AnimeChatAura)\n"
         ROYAL_caption += f"•🌟• **𝙼𝚢 𝙶𝚛𝚘𝚞𝚙**     ~ {CUSTOM_YOUR_GROUP}\n"
 
         await alive.client.send_file(
@@ -83,7 +83,7 @@ async def amireallyalive(alive):
             f"🇮🇳 RᴏʏᴀʟBοτ  : `{ROYALversion}`\n"
             f"🇮🇳 υρτιмє        : `{uptime}`\n"
             f"🔱 ɱαรƭεɾ        : {mention}\n"
-            f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/Samim3316)\n",
+            f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/MrElliotAlderson)\n",
         )
 
 
@@ -92,12 +92,12 @@ msg = f"""
 
        {Config.ALIVE_MSG}
     **  Bø✞︎ ẞ✞︎α✞︎µѕ **
-**•⚜️•Øաղ̃ҽ̈r     :** **{mention}**
-**•🌹•Rᴏʏᴀʟẞø✞︎  :** {ROYALversion}
-**•🌹•✞︎ҽ̀lҽ́ƭhøղ  :** {version.__version__}
-**•🌹•Ãbûßê     :**  {abuse_m}
-**•🌹•Sudø      :**  {is_sudo}
-**•🌹•Bøt.      :** {Config.BOY_OR_GIRL}
+**•⚜️•Owner     :** **{mention}**
+**•🌹•AlfrozenUB  :** {ROYALversion}
+**•🌹•Telthon  :** {version.__version__}
+**•🌹•Abuse     :**  {abuse_m}
+**•🌹•Sudo      :**  {is_sudo}
+**•🌹•Bot       :** {Config.BOY_OR_GIRL}
 """
 botname = Config.BOT_USERNAME
 
