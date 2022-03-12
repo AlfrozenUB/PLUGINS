@@ -71,7 +71,7 @@ alive_txt = """
   ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
   🏅Bø† Status🏅
 **•{}•Oաղer :** {}
-**•{}•ROYAL USERBOT :** {}
+**•{}•ALfrozen Userbot :** {}
 **•{}•Telethon :** {}
 **•{}•Ãbûßê     :** {}
 **•{}•ßudø      :** {}
