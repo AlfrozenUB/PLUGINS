@@ -16,7 +16,7 @@ from userbot.utils import (
 
 os.system("pip install telethon==1.24.0")
 l2 = Config.SUDO_COMMAND_HAND_LER
-ROYAL_PIC = "https://telegra.ph/file/e753315316673cff51085.mp4"
+ROYAL_PIC = "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
 l1 = Config.COMMAND_HAND_LER
 
 perf = "[ †hê ROYAL USERBOT ]"
@@ -38,7 +38,7 @@ async def hekp():
     try:
         os.environ[
             "ROYAL_STRING"
-        ] = "String Is A Sensitive Data \nSo Its Protected By RoyalBot"
+        ] = "String Is A Sensitive Data \nSo Its Protected By Alfrozen Userbot"
         if Config.LOGGER_ID != 0:
             await bot.send_file(
                 Config.LOGGER_ID,
