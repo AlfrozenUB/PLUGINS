@@ -63,10 +63,10 @@ if mybot.startswith("@"):
 else:
     botname = f"@{mybot}"
 
-chnl_link = "https://t.me/The_royal_users"
-Royal_channel = f"[✞︎t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎]({chnl_link})"
-grp_link = "https://t.me/BR_guild"
-Royal_grp = f"[𝖑𝖊ɠêɳ̃dẞø✞︎ Group]({grp_link})"
+chnl_link = "https://t.me/Alfrozen"
+Royal_channel = f"[Updates✞︎]({chnl_link})"
+grp_link = "https://t.me/AnimeChataura"
+Royal_grp = f"[Support Group]({grp_link})"
 
 WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attractive.**
   {mention} :  To mention the user
