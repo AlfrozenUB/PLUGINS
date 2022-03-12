@@ -20,7 +20,7 @@ async def reply_id(event):
 
 ROYAL_IMG = Config.AWAKE_PIC
 CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "Royals Choice ROYALBOT"
-CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@BR_guild"
+CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@ANimeCHatGRoup"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -66,10 +66,10 @@ async def amireallyalive(event):
 
         ROYAL_caption += f"~~~~~~~~~~~~~~~~~~~~~~~\n"
         ROYAL_caption += f"     ⚜ ROYALBOT IS AWAKE ⚜\n"
-        ROYAL_caption += f"•🔥• ROYAL USERBOT     : ν1.0\n"
+        ROYAL_caption += f"•🔥• ALFROZEN USERBOT     : ν1.0\n"
         ROYAL_caption += f"•🔥• 𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽      : `{version.__version__}`\n"
         ROYAL_caption += f"•🔥• 𝚄𝙿𝚃𝙸𝙼𝙴         : `{uptime}`\n"
-        ROYAL_caption += f"•🔥• 𝙲𝙷𝙰𝙽𝙽𝙴𝙻        : [𝕮нαииєℓ](t.me/The_royal_users)\n"
+        ROYAL_caption += f"•🔥• 𝙲𝙷𝙰𝙽𝙽𝙴𝙻        : [𝕮нαииєℓ](t.me/ALFROZEN)\n"
         ROYAL_caption += f"•🔥• ᴹʸ 𝙶𝚁𝙾𝚄𝙿 : {CUSTOM_YOUR_GROUP}\n"
 
         await event.client.send_file(
@@ -83,10 +83,10 @@ async def amireallyalive(event):
             f"~~~~~~~~~~~~~~~~~~~~~~~ \n"
             f"         𝕭𝖔𝖙 𝕾𝖙𝖆𝖙𝖚𝖘\n"
             f"•⚡• 𝕿єℓєτнοи    : `{version.__version__}`\n"
-            f"🇮🇳 ROYAL BOT  : `{ROYALversion}`\n"
+            f"🇮🇳 ALFROZEN BOT  : `{ROYALversion}`\n"
             f"🇮🇳 υρτιмє        : `{uptime}`\n"
             f"🔱 ɱαรƭεɾ        : {mention}\n"
-            f"🔱 σωɳεɾ         : [ROYAL](t.me/Samim3316)\n",
+            f"🔱 σωɳεɾ         : [ROYAL](t.me/MRELLIOTALDERSON)\n",
         )
 
 
