@@ -4,18 +4,18 @@ from userbot import *
 
 from . import *
 
-PM_IMG = "https://telegra.ph/file/c26fc61e904476083baa7.jpg"
-pm_caption = f"⚜『ROYAL USERBOT』Is Ôñĺîne⚜ \n\n"
+PM_IMG = "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
+pm_caption = f"⚜『Alfrozen Usebrbot』Is Ôñĺîne⚜ \n\n"
 pm_caption += f"Ôwñêř ~ 『{royal_mention}』\n"
 pm_caption += f"**╭───────────**\n"
 pm_caption += f"┣Ťêlethon ~ `1.15.0` \n"
-pm_caption += f"┣『ROYAL USERBOT』~ `{ROYALversion}` \n"
-pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/Its_RoyalBot)\n"
-pm_caption += f"┣**License** ~ [License v3.0](github.com/The-RoyalBot/LEGENBOT/blob/master/LICENSE)\n"
-pm_caption += f"┣Copyright ~ By [『ROYAL USERBOT』 ](https://t.me/BR_guild)\n"
-pm_caption += f"┣Assistant ~ By [『THE ROYALS』 ](https://t.me/Its_RoyalBoy)\n"
+pm_caption += f"┣『Alfrozen Usebrbot』~ `{ROYALversion}` \n"
+pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/Alfrozen)\n"
+pm_caption += f"┣**License** ~ [License v3.0](github.com/Kajukatliii/AlfrozenUB/blob/master/LICENSE)\n"
+pm_caption += f"┣Copyright ~ By [『Alfrozen Usebrbot』 ](https://t.me/animechataura)\n"
+pm_caption += f"┣Owner ~ By [『Elliot』 ](https://t.me/Its_RoyalBoy)\n"
 pm_caption += f"╰────────────\n"
-pm_caption += f"       »»» [『ROYAL USERBOT』](https://t.me/BR_guild) «««"
+pm_caption += f"       »»» [『Alfrozen Usebrbot』](https://t.me/AlfrozenUB) «««"
 
 
 @tgbot.on(events.NewMessage(pattern="^/alive"))
