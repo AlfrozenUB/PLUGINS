@@ -53,7 +53,7 @@ else:
             print("Checking Completed. Proceeding to next step...")
             print("♥️ Starting RoyalBot ♥️")
             bot.loop.run_until_complete(add_bot(Config.BOT_USERNAME))
-            LOGS.info(🔥 Alfrozen Userbot Startup Completed 🔥")
+            LOGS.info("🔥 Alfrozen Userbot Startup Completed 🔥")
         else:
             bot.start()
     except Exception as e:
