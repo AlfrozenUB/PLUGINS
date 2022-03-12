@@ -119,7 +119,7 @@ async def royals():
     ROYAL_USER = bot.me.first_name
     Samim3316 = bot.uid
     legd_mention = f"[{ROYAL_USER}](tg://user?id={Samim3316})"
-    yescaption = f"Hello Sir/Miss Something Happened \nDing Dong Ting Tong Ping Pong\nSuccessfully RoyalBot Has Been Deployed \nMy Master ~ 『{legd_mention}』 \nVersion ~ {ROYALversion}\nClick Below To Know More About Me👇🏾👇👇🏼"
+    yescaption = f"Hello Sir/Miss Something Happened \nDing Dong Ting Tong Ping Pong\nSuccessfully AlfrozenBot Has Been Deployed \nMy Master ~ 『{legd_mention}』 \nVersion ~ {ROYALversion}\nClick Below To Know More About Me👇🏾👇👇🏼"
     try:
         TRY = [[Button.inline("⭐ Start ⭐", data="start")]]
         await tgbot.send_file(
@@ -140,8 +140,8 @@ async def help(event):
             message=f"Hey Sir It's Me {bot_id}, Your Assistant! How Can I Help U?",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/BR_guild"),
-                    Button.url(" Updates ", "https://t.me/The_royal_users"),
+                    Button.url(" Support ", "https://t.me/AnimeChatAura"),
+                    Button.url(" Updates ", "https://t.me/Alfrozen"),
                 ],
                 [
                     custom.Button.inline("Users", data="users"),
