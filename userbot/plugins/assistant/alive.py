@@ -13,7 +13,7 @@ pm_caption += f"┣『Alfrozen Usebrbot』~ `{ROYALversion}` \n"
 pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/Alfrozen)\n"
 pm_caption += f"┣**License** ~ [License v3.0](github.com/Kajukatliii/AlfrozenUB/blob/master/LICENSE)\n"
 pm_caption += f"┣Copyright ~ By [『Alfrozen Usebrbot』 ](https://t.me/animechataura)\n"
-pm_caption += f"┣Owner ~ By [『Elliot』 ](https://t.me/Its_RoyalBoy)\n"
+pm_caption += f"┣Owner ~ By [『Elliot』 ](https://t.me/mrelliotalderson)\n"
 pm_caption += f"╰────────────\n"
 pm_caption += f"       »»» [『Alfrozen Usebrbot』](https://t.me/AlfrozenUB) «««"
 
