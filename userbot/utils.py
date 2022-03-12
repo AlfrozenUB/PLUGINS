@@ -76,7 +76,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["userbot.plugins." + shortname] = mod
-        LOGS.info("🔥⚡ROYAL USERBOT⚡🔥 ~ " + shortname)
+        LOGS.info("🔥⚡ALFROZEN USERBOT⚡🔥 ~ " + shortname)
 
 
 def start_assistant(shortname):
@@ -204,7 +204,7 @@ def load_abuse(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("RoyalBot-Abuse ~ " + shortname)
+        LOGS.info("frozenBot-Abuse ~ " + shortname)
     else:
         import importlib
         import sys
@@ -242,7 +242,7 @@ def load_abuse(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["ABUSE." + shortname] = mod
-        LOGS.info("🔱RoyalBot-Abuse🔱 ~ " + shortname)
+        LOGS.info("🔱frozenBot-Abuse🔱 ~ " + shortname)
 
 
 def assistant_cmd(add_cmd, is_args=False):
