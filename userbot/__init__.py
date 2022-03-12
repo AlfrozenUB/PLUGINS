@@ -86,7 +86,7 @@ if bool(ENV):
         basicConfig(
             format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=INFO
         )
-    LOGS = getLogger("[ROYAL USERBOT 3.0]")
+    LOGS = getLogger("[ALFROZEN USERBOT 3.0]")
 
 try:
     if Config.HEROKU_API_KEY is not None or Config.HEROKU_APP_NAME is not None:
