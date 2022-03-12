@@ -15,7 +15,7 @@ from userbot.start import abuses, addons, assistants, hekp, install, module, spa
 
 l1 = Config.COMMAND_HAND_LER
 l2 = Config.SUDO_COMMAND_HAND_LER
-ROYAL_PIC = "https://telegra.ph/file/e753315316673cff51085.mp4"
+ROYAL_PIC = "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
 
 perf = "[ †hê ROYAL USERBOT ]"
 
@@ -53,7 +53,7 @@ else:
             print("Checking Completed. Proceeding to next step...")
             print("♥️ Starting RoyalBot ♥️")
             bot.loop.run_until_complete(add_bot(Config.BOT_USERNAME))
-            LOGS.info("🥇🔥 RoyalBot Startup Completed 🔥🥇")
+            LOGS.info(🔥 Alfrozen Userbot Startup Completed 🔥")
         else:
             bot.start()
     except Exception as e:
@@ -230,7 +230,7 @@ async def users(event):
         await event.delete()
         await tgbot.send_message(
             event.chat_id,
-            message=".set var <varname> <value> ex:- .set var ALIVE_NAME RoyalBoy \n\n To Know All Var Go Back And Click On All Var",
+            message=".set var <varname> <value> ex:- .set var ALIVE_NAME Crimsonnn \n\n To Know All Var Go Back And Click On All Var",
             buttons=[
                 [custom.Button.inline("Back", data="osg")],
             ],
@@ -299,8 +299,6 @@ Reply To My Message If I am using In Group
 "L" ~ [Promote a member in a group/channel]
 
 "M" ~ [Change Phone number using StringSession]
-
-I will add more features Later 😅
 """
 
 keyboard = [
@@ -353,12 +351,13 @@ bot.loop.run_until_complete(install())
 
 print(
     f"""
-╔════❰ROYALBOT❱═❍⊱❁۪۪
+╔════❰ALfrozen Bot❱═❍⊱❁۪۪
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
-║┣⪼ Group - @BR_guild
-║┣⪼ CREATOR - @Samim3316
+║┣⪼ Group - @AnimeChatAura
+║┣⪼ CREATOR - @MrElliotElderson
 ║┣⪼ ROYALBOT - {ROYALversion}
-║┣⪼ ✨ 『🔱🇱 🇪 🇬 🇪 🇳 🇩 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+║┣⪼ ᴀʟꜰʀᴏᴢᴇɴ ᴜꜱᴇʀʙᴏᴛ
+
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱"""
 )
