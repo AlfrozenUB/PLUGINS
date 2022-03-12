@@ -70,12 +70,12 @@ async def help(event):
     if event.query.user_id is not bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message="You Can Deploy RoyalBot In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
+            message="You Can Deploy AlfrozenUB In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
             link_preview=False,
             buttons=[
-                [custom.Button.inline("Deploy your RoyalBot", data="fire")],
+                [custom.Button.inline("Deploy your AlfrozenUB", data="fire")],
                 [Button.url("Help Me ❓", "https://t.me/Animechataura")],
-                [Button.url("Github Repo ❓", "github.com/Kajukatliii/Alfrozen")],
+                [Button.url("Github Repo ❓", "github.com/Kajukatliii/AlfrozenUB")],
             ],
         )
 
