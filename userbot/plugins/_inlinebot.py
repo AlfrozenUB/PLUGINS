@@ -206,7 +206,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             fsub_btn = [
                 [
                     Button.url(
-                        f"{ROYAL_USER}", f"tg://openmessage?user_id={MrElliotAlderson}"
+                        f"{ROYAL_USER}", f"tg://openmessage?user_id={Samim3316}"
                     )
                 ],
                 [
@@ -263,7 +263,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             var_btn = [
                 [
                     Button.url(
-                        f"{ROYAL_USER}", f"tg://openmessage?user_id={MrElliotElderson}"
+                        f"{ROYAL_USER}", f"tg://openmessage?user_id={Samim3316}"
                     )
                 ],
                 [
