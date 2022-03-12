@@ -20,18 +20,18 @@ royal = bot.uid
 mention = f"[{DEFAULTUSER}](tg://user?id={royal})"
 
 
-PM_IMG = "https://telegra.ph/file/4f03f6d4e9521902eb57f.jpg"
-pm_caption = "**𝖑𝖊ɠêɳ̃dẞø✞︎ 𝙸𝚜 𝙾𝚗𝚕𝚒𝚗𝚎**\n\n"
+PM_IMG = "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
+pm_caption = "**Alfrozen 𝙸𝚜 𝙾𝚗𝚕𝚒𝚗𝚎**\n\n"
 
-pm_caption += f"**┏🔥✞t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎t🔥┓**\n"
+pm_caption += f"**┏🔥The Alfrozen Userbot🔥┓**\n"
 pm_caption += f"**┣🚀 𝙼𝚢 𝙼𝚊𝚜𝚝𝚎𝚛    : {mention}**\n"
 pm_caption += f"**┣🚀 𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗 : `{version.__version__}`**\n"
-pm_caption += f"**┣🚀 𝖑𝖊ɠêɳ̃dẞø✞︎ : {ROYALversion}**\n"
+pm_caption += f"**┣🚀 Alfrozen UB : {ROYALversion}**\n"
 pm_caption += f"**┣🚀 𝚂𝚞𝚍𝚘     : `{sudou}`**\n"
-pm_caption += f"**┣🚀 𝙾𝚠𝚗𝚎𝚛     : [𝖑𝖊ɠêɳ̃d](https://t.me/Samim3316)**\n"
-pm_caption += f"**┗[♦️𝙶𝚛𝚘𝚞𝚙♦️](https://t.me/BR_guild)┛**\n"
+pm_caption += f"**┣🚀 𝙾𝚠𝚗𝚎𝚛     : [Elliot](https://t.me/MrElliotAlderson)**\n"
+pm_caption += f"**┗[♦️𝙶𝚛𝚘𝚞𝚙♦️](https://t.me/ANimeChatAura)┛**\n"
 
-pm_caption += "    [✨яєρο✨](https://github.com/THE-ROYALSBOT/ROYAL-USERBOT) 🔹 [📜License📜](https://github.com/THE-ROYALSBOT/ROYAL-USERBOT/blob/master/LICENSE)"
+pm_caption += "    [✨яєρο✨](https://github.com/Kajukatliii/AlfrozenUB) 🔹 [📜License📜](https://github.com/Kajukatliii/alfrozenUB/blob/master/LICENSE)"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="bot$"))
