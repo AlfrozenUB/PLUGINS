@@ -78,7 +78,7 @@ async def stats(
     response += f"⚜                 **Unread** : {unread} \n"
     response += f" **Unread мємτιοиѕ** : {unread_mentions} \n\n"
     response += f"       __ιτ τοοκ :__ {stop_time:.02f}s \n"
-    response += f"ƒɾσɱ ƭɦε ∂αƭαɓαรε σƒ:-[♥️𝖑𝖊ɠêɳ̃dẞø✞︎♥️](https://t.me/BR_guild)"
+    response += f"ƒɾσɱ ƭɦε ∂αƭαɓαรε σƒ:-[Alfrozen](https://t.me/ALFROZEN)"
     await ROYAL.edit(response)
 
 
