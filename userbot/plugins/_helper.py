@@ -19,8 +19,8 @@ else:
 msg = f"""
 **⚜ Legendary Af RoyalBot ⚜**
 
-  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/THE-ROYALSBOT/ROYAL-USERBOT)
-  •        [♦️ Deploy ♦️](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTHE-ROYALSBOT%2FROYALBOT&template=https%3A%2F%2Fgithub.com%2FTHE-ROYALSBOT%2FROYALBOT)
+  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/Kajukatliii/AlfrozenUB)
+  •        [♦️ Deploy ♦️](https://heroku.com/deploy?template=https://github.com/Kajukatliii/AlfrozenUB)
 
   •  ©️ {Royal_channel} ™
 """
@@ -153,4 +153,4 @@ async def _(event):
 
     logger.info(result)  # pylint:disable=E0602
 
-    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву **ROYAL USERBOT** вσт")
+    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву **Alfrozen UB** вσт")
