@@ -21,8 +21,8 @@ royal_row = Config.BUTTONS_IN_HELP
 royal_emoji1 = Config.EMOJI_IN_HELP1 or "⭐"
 royal_emoji2 = Config.EMOJI_IN_HELP2 or "⭐"
 alive_emoji = Config.ALIVE_EMOJI or "🔰"
-alive_name = Config.ALIVE_NAME or "RoyalBoy"
-royal_pic = Config.PM_PIC or "https://te.legra.ph/file/dda2f819350fa08905930.jpg"
+alive_name = Config.ALIVE_NAME or "Alfrozen"
+royal_pic = Config.PM_PIC or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
 cstm_pmp = Config.PM_MSG
 ALV_PIC = VAR_PIC = Config.ALIVE_PIC
 help_pic = Config.HELP_PIC
@@ -130,7 +130,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             for x in CMD_LIST.values():
                 for y in x:
                     apn.append(y)
-            help_msg = f"⚜『{royal_mention}』⚜\n\n⭐ 𝚃𝚘𝚝𝚊𝚕 𝙼𝚘𝚍𝚞𝚕𝚎𝚜 𝙸𝚗𝚜𝚝𝚊𝚕𝚕𝚎𝚍⭆ `{len(CMD_HELP)}`\n🔥 𝚃𝚘𝚝𝚊𝚕 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜⭆ `{len(apn)}`\n📖 Pαցҽ⭆ 1/{veriler[0]}"
+            help_msg = f"⚜『{royal_mention}』⚜\n\n𝚃𝚘𝚝𝚊𝚕 𝙼𝚘𝚍𝚞𝚕𝚎𝚜 𝙸𝚗𝚜𝚝𝚊𝚕𝚕𝚎𝚍⭆ `{len(CMD_HELP)}`\ 𝚃𝚘𝚝𝚊𝚕 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜⭆ `{len(apn)}`\n📖 Pαցҽ⭆ 1/{veriler[0]}"
             if help_pic and help_pic.endswith((".jpg", ".png")):
                 result = builder.photo(
                     help_pic,
@@ -210,8 +210,8 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     )
                 ],
                 [
-                    Button.url("📍My Channel📍", f"https://t.me/{my_channel}"),
-                    Button.url("💝My Group💝", f"https://t.me/{my_group}"),
+                    Button.url("My Channel", f"https://t.me/{my_channel}"),
+                    Button.url("My Group", f"https://t.me/{my_group}"),
                 ],
             ]
             if ALV_PIC and ALV_PIC.endswith((".jpg", ".png")):
@@ -298,11 +298,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 title="Repository",
                 text=f"**⚜ Royality O𝚏 Royal B𝚘𝚝 ⚜**",
                 buttons=[
-                    [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/THE-ROYALSBOT/ROYAL-USERBOT")],
+                    [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/Kajukatliii/AlfrozenUB")],
                     [
                         Button.url(
                             "💞 Deploy 💞",
-                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTHE-ROYALSBOT%2FROYALBOT&template=https%3A%2F%2Fgithub.com%2FTHE-ROYALSBOT%2FROYALBOT",
+                            "https://heroku.com/deploy?template=https://github.com/Kajukatliii/AlfrozenUB",
                         )
                     ],
                 ],
@@ -319,15 +319,15 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         else:
             result = builder.photo(
                 ALV_PIC,
-                text="""Hey! This is [ROYAL USERBOT](https://t.me/The_royal_users) \nYou can know more about me from the links given below 👇""",
+                text="""Hey! This is Alfrozen UB](https://t.me/AnimeChatAura) \nYou can know more about me from the links given below 👇""",
                 buttons=[
                     [
                         custom.Button.url(
-                            "⭐ Repo ⭐", "https://Github.com/THE-ROYALSBOT/ROYAL-USERBOT"
+                            "⭐ Repo ⭐", "https://github.com/Kajukatliii/AlfrozenUB"
                         ),
                         custom.Button.url(
-                            "⚡ Repl ⚡",
-                            "https://replit.com/@KrishnaJaiswal1/ROYALBOT#main.py",
+                            "⚡ String Session ⚡",
+                            "https://t.me/AlfrozenSessionBot",
                         ),
                     ],
                 ],
@@ -342,7 +342,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"🔰 This is ROYAL USERBOT PM Security for {royal_mention} to keep away unwanted retards from spamming PM..."
+                f"🔰 This is ALfrozen Userbot PM Security for {royal_mention} to keep away unwanted retards from spamming PM..."
             )
 
     @tgbot.on(callbackquery.CallbackQuery(data=compile(b"req")))
@@ -511,7 +511,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 link_preview=False,
             )
         else:
-            reply_pop_up_alert = "This Is For My Master Only.Dont Try To Touch Again. Deploy Ur Own © ROYAL USERBOT™"
+            reply_pop_up_alert = "This Is For My Master Only.Dont Try To Touch Again. Deploy Ur Own © ALfrozen Userbot™"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(callbackquery.CallbackQuery(data=compile(b"close")))
@@ -521,7 +521,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 f"{royal_emoji1} Re-Open Menu {royal_emoji2}", data="reopen"
             )
             await event.edit(
-                f"**⚜️ ROYAL USERBOT Mêñû Prõvîdêr háš běěn čłøšĕd ⚜️**\n\n**Bot Of :**  {royal_mention}\n\n            [©️ROYAL USERBOT]({chnl_link})",
+                f"**😈ALfrozen Userbot Mêñû Prõvîdêr háš běěn čłøšĕd😈**\n\n**Bot Of :**  {royal_mention}\n\n            [©️ROYAL USERBOT]({chnl_link})",
                 buttons=veriler,
                 link_preview=False,
             )
