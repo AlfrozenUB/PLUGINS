@@ -172,7 +172,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             alv_btn = [
                 [
                     Button.url(
-                        f"{ROYAL_USER}", f"tg://openmessage?user_id={Samim3316}"
+                        f"{ROYAL_USER}", f"tg://openmessage?user_id={MrElliotAlderson}"
                     )
                 ],
                 [
@@ -191,14 +191,14 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 result = builder.document(
                     ALV_PIC,
                     text=leg_end,
-                    title="RoyalBot Alive",
+                    title="Alfrozen UB Alive",
                     buttons=alv_btn,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
                     text=leg_end,
-                    title="RoyalBot Alive",
+                    title="Alfrozen UB Alive",
                     buttons=alv_btn,
                     link_preview=False,
                 )
@@ -206,7 +206,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             fsub_btn = [
                 [
                     Button.url(
-                        f"{ROYAL_USER}", f"tg://openmessage?user_id={Samim3316}"
+                        f"{ROYAL_USER}", f"tg://openmessage?user_id={MrElliotAlderson}"
                     )
                 ],
                 [
@@ -263,11 +263,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             var_btn = [
                 [
                     Button.url(
-                        f"{ROYAL_USER}", f"tg://openmessage?user_id={Samim3316}"
+                        f"{ROYAL_USER}", f"tg://openmessage?user_id={MrElliotElderson}"
                     )
                 ],
                 [
-                    Button.url("🔹️Command🔹️", f"http://telegra.ph/Astronomer-10-07"),
+                    Button.url("🔹️Command🔹️", f"http://t.me/Alfrozen"),
                 ],
             ]
             if VAR_PIC and VAR_PIC.endswith((".jpg", ".png")):
@@ -281,14 +281,14 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 result = builder.document(
                     VAR_PIC,
                     text=le_gend,
-                    title="RoyalBot Alive",
+                    title="Alfrozen UB Alive",
                     buttons=var_btn,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
                     text=ROYAL,
-                    title="RoyalBot Alive",
+                    title="Alfrozen UB Alive",
                     buttons=var_btn,
                     link_preview=False,
                 )
@@ -521,7 +521,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 f"{royal_emoji1} Re-Open Menu {royal_emoji2}", data="reopen"
             )
             await event.edit(
-                f"**😈ALfrozen Userbot Mêñû Prõvîdêr háš běěn čłøšĕd😈**\n\n**Bot Of :**  {royal_mention}\n\n            [©️ROYAL USERBOT]({chnl_link})",
+                f"**😈ALfrozen Userbot Mêñû Prõvîdêr háš běěn čłøšĕd😈**\n\n**Bot Of :**  {royal_mention}\n\n            [©️Alfrozen UB]({chnl_link})",
                 buttons=veriler,
                 link_preview=False,
             )
@@ -585,7 +585,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             )
         else:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. ©ROYAL USERBOT™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. ©Alfrozen UB™",
                 cache_time=0,
                 alert=True,
             )
