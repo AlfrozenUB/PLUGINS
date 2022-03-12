@@ -42,7 +42,7 @@ def get_readable_time(seconds: int) -> str:
 
 uptime = get_readable_time((time.time() - StartTime))
 DEFAULTUSER = ALIVE_NAME or " Royal bot 🇮🇳"
-ROYAL_IMG = "https://te.legra.ph/file/ec5fb7bda2b1172149221.jpg"
+ROYAL_IMG = "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
 CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "Royals Choice Royalbot"
 CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@BR_guild"
 
