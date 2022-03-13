@@ -28,10 +28,10 @@ pm_caption += f"**┣🚀 𝙼𝚢 𝙼𝚊𝚜𝚝𝚎𝚛    : {mention}**\n"
 pm_caption += f"**┣🚀 𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗 : `{version.__version__}`**\n"
 pm_caption += f"**┣🚀 Alfrozen UB : {ROYALversion}**\n"
 pm_caption += f"**┣🚀 𝚂𝚞𝚍𝚘     : `{sudou}`**\n"
-pm_caption += f"**┣🚀 𝙾𝚠𝚗𝚎𝚛     : [Elliot](https://t.me/MrElliotAlderson)**\n"
-pm_caption += f"**┗[♦️𝙶𝚛𝚘𝚞𝚙♦️](https://t.me/ANimeChatAura)┛**\n"
+pm_caption += f"**┣🚀 𝙾𝚠𝚗𝚎𝚛     : [Elliot](https://t.me/AlfrozenX)**\n"
+pm_caption += f"**┗[♦️𝙶𝚛𝚘𝚞𝚙♦️](https://t.me/ErinaSupport)┛**\n"
 
-pm_caption += "    [✨яєρο✨](https://github.com/Kajukatliii/AlfrozenUB) 🔹 [📜License📜](https://github.com/Kajukatliii/alfrozenUB/blob/master/LICENSE)"
+pm_caption += "    [✨яєρο✨](https://github.com/ALfrozenUB/AlfrozenUB) 🔹 [📜License📜](https://github.com/ALfrozenUB/alfrozenUB/blob/master/LICENSE)"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="bot$"))
