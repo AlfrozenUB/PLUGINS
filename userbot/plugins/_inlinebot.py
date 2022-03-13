@@ -18,8 +18,6 @@ from . import *
 
 DEFAULTUSER = ALIVE_NAME or "ROYAL"
 royal_row = Config.BUTTONS_IN_HELP
-royal_emoji1 = Config.EMOJI_IN_HELP1 or "⭐"
-royal_emoji2 = Config.EMOJI_IN_HELP2 or "⭐"
 alive_emoji = Config.ALIVE_EMOJI or "🔰"
 alive_name = Config.ALIVE_NAME or "Alfrozen"
 royal_pic = Config.PM_PIC or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
@@ -93,7 +91,7 @@ def button(page, modules):
         buttons.append(
             [
                 custom.Button.inline(
-                    f"{royal_emoji1} " + pair + f" {royal_emoji2}",
+                    pair,
                     data=f"Information[{page}]({pair})",
                 )
                 for pair in pairs
@@ -518,7 +516,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid or event.query.user_id in Config.SUDO_USERS:
             veriler = custom.Button.inline(
-                f"{royal_emoji1} Re-Open Menu {royal_emoji2}", data="reopen"
+                "Re-Open Menu", data="reopen"
             )
             await event.edit(
                 f"**😈ALfrozen Userbot Mêñû Prõvîdêr háš běěn čłøšĕd😈**\n\n**Bot Of :**  {royal_mention}\n\n            [©️Alfrozen UB]({chnl_link})",
@@ -573,7 +571,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         buttons.append(
             [
                 custom.Button.inline(
-                    f"{royal_emoji1} Help Menu {royal_emoji2}", data=f"page({page})"
+                    "Help Menu", data=f"page({page})"
                 )
             ]
         )
@@ -628,7 +626,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 result,
                 buttons=[
                     custom.Button.inline(
-                        f"{royal_emoji1} Return {royal_emoji2}",
+                        "Return",
                         data=f"Information[{page}]({cmd})",
                     )
                 ],
