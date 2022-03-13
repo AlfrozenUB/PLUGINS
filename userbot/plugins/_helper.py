@@ -19,8 +19,8 @@ else:
 msg = f"""
 **AlfrozenBot**
 
-  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/Kajukatliii/AlfrozenUB)
-  •        [♦️ Deploy ♦️](https://heroku.com/deploy?template=https://github.com/Kajukatliii/AlfrozenUB)
+  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/AlfrozenUB/AlfrozenUB)
+  •        [♦️ Deploy ♦️](https://github.com/AlfrozenUB/ALfrozenUB#readme)
 
   •  ©️ {Royal_channel} ™
 """
