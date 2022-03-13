@@ -59,7 +59,7 @@ async def start(event):
                     custom.Button.inline(" Rules ", data="rules"),
                     Button.url(" Support ", "https://t.me/ANimeChatAura"),
                 ],
-                [custom.Button.inline("Deploy Your RoyalBot", data="deploy")],
+                [custom.Button.inline("Deploy Your AlfrozenBot", data="deploy")],
             ],
         )
 
