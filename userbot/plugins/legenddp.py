@@ -15,13 +15,13 @@ FONT_FILE_TO_USE = "./userbot/helpers/styles/Voice In My Head_080621160753.otf"
 
 # Add telegraph media links of profile pics that are to be used
 TELEGRAPH_MEDIA_LINKS = [
-    "https://telegra.ph/file/5692988b0d53ae24da716.jpg",
-    "https://telegra.ph/file/5692988b0d53ae24da716.jpg",
-    "https://telegra.ph/file/be0cc8912bece1b1e4783.jpg",
-    "https://telegra.ph/file/09d8de43bca126d981dfa.jpg",
-    "https://telegra.ph/file/e70f5639c500090f2789a.jpg",
-    "https://telegra.ph/file/9e0f911538abd6f5fb54c.jpg",
-    "https://telegra.ph/file/9e0f911538abd6f5fb54c.jpg",
+    "https://telegra.ph/file/b4c7082f2c22283d66394.jpg",
+    "https://telegra.ph/file/b4c7082f2c22283d66394.jpg",
+    "https://telegra.ph/file/b4c7082f2c22283d66394.jpg",
+    "https://telegra.ph/file/b4c7082f2c22283d66394.jpg",
+    "https://telegra.ph/file/b4c7082f2c22283d66394.jpg",
+    "https://telegra.ph/file/b4c7082f2c22283d66394.jpg",
+    "https://telegra.ph/file/b4c7082f2c22283d66394.jpg",
 ]
 
 
@@ -59,4 +59,4 @@ async def autopic(event):
             return
 
 
-CmdHelp("royaldp").add_command("ldp", None, "Starts autodp of RoyalBoy").add()
+CmdHelp("royaldp").add_command("ldp", None, "Starts autodp of AlfrozenUB").add()
