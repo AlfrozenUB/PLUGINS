@@ -296,11 +296,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 title="Repository",
                 text=f"**⚜ Royality O𝚏 Royal B𝚘𝚝 ⚜**",
                 buttons=[
-                    [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/Kajukatliii/AlfrozenUB")],
+                    [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/AlfrozenUB/AlfrozenUB")],
                     [
                         Button.url(
                             "💞 Deploy 💞",
-                            "https://heroku.com/deploy?template=https://github.com/Kajukatliii/AlfrozenUB",
+                            "https://heroku.com/deploy?template=https://github.com/ALfrozenUB/AlfrozenUB",
                         )
                     ],
                 ],
@@ -321,7 +321,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 buttons=[
                     [
                         custom.Button.url(
-                            "⭐ Repo ⭐", "https://github.com/Kajukatliii/AlfrozenUB"
+                            "⭐ Repo ⭐", "https://github.com/ALfrozenUB/AlfrozenUB"
                         ),
                         custom.Button.url(
                             "⚡ String Session ⚡",
