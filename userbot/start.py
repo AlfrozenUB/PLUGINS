@@ -43,7 +43,7 @@ async def hekp():
             await bot.send_file(
                 Config.LOGGER_ID,
                 ROYAL_PIC,
-                caption=f"Deployed ROYAL USERBOT Successfully\n\nALFROZEN USERBOT ~ {ROYALversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [RoyalBot Channel](t.me/ALFROZEN) for Updates & [RoyalBot Chat](t.me/ANIMECHATAYRA) for any query regarding AlfrozenBot",
+                caption=f"Deployed ROYAL USERBOT Successfully\n\nALFROZEN USERBOT ~ {ROYALversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [RoyalBot Channel](t.me/ALFROZEN) for Updates & [RoyalBot Chat](t.me/ErinaSupport) for any query regarding AlfrozenBot",
             )
     except Exception as e:
         print(str(e))
@@ -54,7 +54,7 @@ async def hekp():
         pass
 
     try:
-        await bot(JoinChannelRequest("@AnimeCHATaurA"))
+        await bot(JoinChannelRequest("@ErinaSupport"))
     except BaseException:
         pass
 
@@ -152,11 +152,11 @@ async def spams():
 async def install():
     if plc == "ON":
         try:
-            await bot(JoinChannelRequest("@BR_guildPlugin"))
+            await bot(JoinChannelRequest("@ErinaSupport"))
         except BaseException:
             pass
         i = 0
-        chat = -1001518412326
+        chat = -1001695058746
         documentss = await bot.get_messages(
             chat, None, filter=InputMessagesFilterDocument
         )
