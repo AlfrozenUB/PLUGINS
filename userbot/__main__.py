@@ -121,7 +121,7 @@ async def royals():
     legd_mention = f"[{ROYAL_USER}](tg://user?id={Samim3316})"
     yescaption = f"Hello Sir/Miss Something Happened \nDing Dong Ting Tong Ping Pong\nSuccessfully AlfrozenBot Has Been Deployed \nMy Master ~ 『{legd_mention}』 \nVersion ~ {ROYALversion}\nClick Below To Know More About Me👇🏾👇👇🏼"
     try:
-        TRY = [[Button.inline("⭐ Start ⭐", data="start")]]
+        TRY = [[Button.inline("Start", data="start")]]
         await tgbot.send_file(
             bot.me.id, ROYAL_PIC, caption=yescaption, buttons=TRY, incoming=True
         )
