@@ -11,7 +11,7 @@ from userbot.utils import admin_cmd
 
 from . import *
 
-WARN_PIC = Config.PM_PIC or "https://te.legra.ph/file/0c605739ddaa472cad75f.jpg"
+WARN_PIC = Config.PM_PIC or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
 max_flood = Config.MAX_FLOOD_IN_PM
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
@@ -22,7 +22,7 @@ CSTM_PMP = (
 )
 ROYAL_ZERO = "Go get some sleep retard. \n\n**Blocked !!**"
 ROYAL_FIRST = (
-    "**🔥 RoyalBo† Prîvã†é Sêçürïty Prø†öçõl 🔥**\n\nThis is to inform you that "
+    "** AlfrizenBo† Prîvã†é Sêçürïty Prø†öçõl**\n\nThis is to inform you that "
     "{} is currently unavailable.\nThis is an automated message.\n\n"
     "{}\n\n**{}Please Choose Why You Are Here!!**".format(
         royal_mention, CSTM_PMP, max_flood
@@ -400,9 +400,9 @@ async def hehehe(event):
         if not pm_sql.is_approved(chat.id):
             pm_sql.approve(
                 chat.id,
-                f"**My Boss iz here..{royal_mention}'s Its Ur Lucky day Nibba😏!!**",
+                f"**My Boss iz here..{royal_mention}'s Its Ur Lucky day Nibba!!**",
             )
-            await borg.send_message(chat, f"⚡ **Welcome My Master** ⚡")
+            await borg.send_message(chat, f"**Welcome My Master**")
 
 
 CmdHelp("pm_permit").add_command(
