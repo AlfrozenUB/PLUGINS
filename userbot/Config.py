@@ -85,8 +85,8 @@ if ENV:
         ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "ALFROZEN USERBOT Is Online"
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "DISABLE")
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@BR_guild")
-        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@The_royal_users.")
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@ErinaSupport")
+        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Alfrozen.")
         BOT_PIC = os.environ.get("ALIVE_PIC", None)
         # auto bio
         BIO_MSG = os.environ.get("ALIVE_MSG", None)
@@ -95,7 +95,7 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API", None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/KAJUKATLIIII/ALFROZENUB"
+            "UPSTREAM_REPO", "https://github.com/alfrozenUB/ALFROZENUB"
         )
         APP_ID = os.environ.get("APP_ID", None)
         API_HASH = os.environ.get("API_HASH", None)
