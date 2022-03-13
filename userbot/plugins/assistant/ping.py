@@ -17,5 +17,5 @@ RoyalBoy = f"**⚡Ping⚡**\n\n   ⚜ {ms}\n   ⚜ ❝𝐌𝐲 𝐌𝐚𝐬𝐭�
 
 @tgbot.on(events.NewMessage(pattern="^/ping"))
 async def _(event):
-    GOOD = [[Button.url("⚜ ROYAL USERBOT ⚜", "https://t.me/BR_guild")]]
+    GOOD = [[Button.url("ALFROZEN USERBOT", "https://t.me/ALFROZEN")]]
     await tgbot.send_file(event.chat_id, ROYAL_IMG, caption=RoyalBoy, buttons=GOOD)
