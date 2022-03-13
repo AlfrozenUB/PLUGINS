@@ -9,7 +9,7 @@ from userbot import *
 from . import *
 
 DELETE_TIMEOUT = 5
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "『ROYAL USERBOT』"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "『ALFROZEN USERBOT』"
 royal = bot.uid
 ROYAL = f"[{DEFAULTUSER}](tg://user?id={royal})"
 EVAL = os.environ.get("EVAL", None)
@@ -216,7 +216,7 @@ async def install(event):
     o = stdout.decode()
     _o = o.split("\n")
     o = "\n".join(_o)
-    OUTPUT = f"♥️List Of Plugins In 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳 :- \n\n{o}\n\n<><><><><><><><><><><><><><><><><><><><><><><><>\nHELP:- If you want to know the commands for a plugin, do :- \n.plinfo <plugin name> without the < > brackets. \nJoin https://t.me/BR_guild for help."
+    OUTPUT = f"♥️List Of Plugins In AlfrozenUB 🇮🇳 :- \n\n{o}\n\n<><><><><><><><><><><><><><><><><><><><><><><><>\nHELP:- If you want to know the commands for a plugin, do :- \n.plinfo <plugin name> without the < > brackets. \nJoin https://t.me/BR_guild for help."
     if len(OUTPUT) > 69:
         with io.BytesIO(str.encode(OUTPUT)) as out_file:
             out_file.name = "cmnds_list.text"
