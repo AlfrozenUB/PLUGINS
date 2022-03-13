@@ -49,8 +49,8 @@ else:
 
 START_TIME = datetime.datetime.now()
 uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
-my_channel = Config.YOUR_CHANNEL or "The_royal_users"
-my_group = Config.YOUR_GROUP or "BR_guild"
+my_channel = Config.YOUR_CHANNEL or "Alfrozen"
+my_group = Config.YOUR_GROUP or "ErinaSupport"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
@@ -65,7 +65,7 @@ else:
 
 chnl_link = "https://t.me/Alfrozen"
 Royal_channel = f"[Updates✞︎]({chnl_link})"
-grp_link = "https://t.me/AnimeChataura"
+grp_link = "https://t.me/ErinaSupport"
 Royal_grp = f"[Support Group]({grp_link})"
 
 WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attractive.**
