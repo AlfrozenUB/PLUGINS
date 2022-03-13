@@ -66,7 +66,7 @@ async def amireallyalive(alive):
         ROYAL_caption += f"•🌟• **Version†**   ~ {ROYALversion}\n"
         ROYAL_caption += f"•🌟• **Telethon**     ~ `{version.__version__}`\n"
         ROYAL_caption += f"•🌟• **𝚄ρtime**         ~ `{uptime}`\n"
-        ROYAL_caption += f"•🌟• **𝙶𝚛𝚘𝚞𝚙**           ~ [𝙶𝚛𝚘𝚞𝚙](t.me/AnimeChatAura)\n"
+        ROYAL_caption += f"•🌟• **𝙶𝚛𝚘𝚞𝚙**           ~ [𝙶𝚛𝚘𝚞𝚙](t.me/ErinaSupport)\n"
         ROYAL_caption += f"•🌟• **𝙼𝚢 𝙶𝚛𝚘𝚞𝚙**     ~ {CUSTOM_YOUR_GROUP}\n"
 
         await alive.client.send_file(
@@ -83,7 +83,7 @@ async def amireallyalive(alive):
             f"🇮🇳 RᴏʏᴀʟBοτ  : `{ROYALversion}`\n"
             f"🇮🇳 υρτιмє        : `{uptime}`\n"
             f"🔱 ɱαรƭεɾ        : {mention}\n"
-            f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/MrElliotAlderson)\n",
+            f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/ALfrozenUB)\n",
         )
 
 
