@@ -140,7 +140,7 @@ async def help(event):
             message=f"Hey Sir It's Me {bot_id}, Your Assistant! How Can I Help U?",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/AnimeChatAura"),
+                    Button.url(" Support ", "https://t.me/ErinaSupport"),
                     Button.url(" Updates ", "https://t.me/Alfrozen"),
                 ],
                 [
@@ -353,9 +353,9 @@ print(
     f"""
 ╔════❰ALfrozen Bot❱═❍⊱❁۪۪
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
-║┣⪼ Group - @AnimeChatAura
+║┣⪼ Group - @ErinaSupport
 ║┣⪼ CREATOR - @MrElliotElderson
-║┣⪼ ROYALBOT - {ROYALversion}
+║┣⪼ ALFROZEN - {ROYALversion}
 ║┣⪼ ᴀʟꜰʀᴏᴢᴇɴ ᴜꜱᴇʀʙᴏᴛ
 
 ║╰━━━━━━━━━━━━━━━➣
