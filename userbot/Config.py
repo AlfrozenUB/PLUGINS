@@ -64,25 +64,25 @@ if ENV:
         # alive
         ALIVE_PIC = (
             os.environ.get("ALIVE_PIC", None)
-            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
+            or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
         )
         PM_PIC = (
             os.environ.get("PM_PIC", None)
-            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
+            or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
         )
         AWAKE_PIC = (
             os.environ.get("AWAKE_PIC", None)
-            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
+            or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
         )
         HELP_PIC = (
             os.environ.get("OP_PIC", None)
-            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
+            or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
         )
         PING_PIC = (
             os.environ.get("PING_PIC", None)
-            or "https://telegra.ph/file/f914e971dd929fac4a421.jpg"
+            or "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
         )
-        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "ROYAL USERBOT Is Online"
+        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "ALFROZEN USERBOT Is Online"
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "DISABLE")
         YOUR_GROUP = os.environ.get("YOUR_GROUP", "@BR_guild")
@@ -95,7 +95,7 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API", None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/THE-ROYALSBOT/ROYAL-USERBOT"
+            "UPSTREAM_REPO", "https://github.com/KAJUKATLIIII/ALFROZENUB"
         )
         APP_ID = os.environ.get("APP_ID", None)
         API_HASH = os.environ.get("API_HASH", None)
