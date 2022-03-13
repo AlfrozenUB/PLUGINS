@@ -23,7 +23,7 @@ async def send(event):
     message_id = event.message.id
     thumb = core_pic
     input_str = event.pattern_match.group(1)
-    omk = f"**⍟ 𝙿𝚕𝚞𝚐𝚒𝚗 𝚗𝚊𝚖𝚎 ≈** `{input_str}`\n**⍟ 𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 ≈** {royal_mention}\n\n⚜ **[Alfrozen Userbot](https://t.me/AnimeChatAura)** ⚜"
+    omk = f"**⍟ 𝙿𝚕𝚞𝚐𝚒𝚗 𝚗𝚊𝚖𝚎 ≈** `{input_str}`\n**⍟ 𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 ≈** {royal_mention}\n\n⚜ **[Alfrozen Userbot](https://t.me/ErinaSupport)** ⚜"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     the_1plugin_file = "./userbot/plugins/Abuse/{}.py".format(input_str)
     the_2plugin_file = "./userbot/plugins/Spam/{}.py".format(input_str)
