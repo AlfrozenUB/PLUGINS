@@ -35,7 +35,7 @@ async def start(event):
             message=f"Hi Sir/Miss, It's Me {bot_id}, Your Assistant ! \nHow Can I help U?",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/AnimeChatAura"),
+                    Button.url(" Support ", "https://t.me/ErinaSupport"),
                     Button.url(" Updates ", "https://t.me/Alfrozen"),
                 ],
                 [
@@ -57,7 +57,7 @@ async def start(event):
             buttons=[
                 [
                     custom.Button.inline(" Rules ", data="rules"),
-                    Button.url(" Support ", "https://t.me/ANimeChatAura"),
+                    Button.url(" Support ", "https://t.me/ErinaSupport"),
                 ],
                 [custom.Button.inline("Deploy Your AlfrozenBot", data="deploy")],
             ],
@@ -74,8 +74,8 @@ async def help(event):
             link_preview=False,
             buttons=[
                 [custom.Button.inline("Deploy your AlfrozenUB", data="fire")],
-                [Button.url("Help Me ❓", "https://t.me/Animechataura")],
-                [Button.url("Github Repo ❓", "github.com/Kajukatliii/AlfrozenUB")],
+                [Button.url("Help Me ❓", "https://t.me/ErinaSupport")],
+                [Button.url("Github Repo ❓", "github.com/ALFROZENUB/AlfrozenUB")],
             ],
         )
 
