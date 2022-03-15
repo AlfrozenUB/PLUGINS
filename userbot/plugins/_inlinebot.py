@@ -64,16 +64,16 @@ var_txt = """
 
 
 alive_txt = """
-**Hey,
-     {}**
-  ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
-  🏅Bø† Status🏅
-**•{}•Oաղer :** {}
-**•{}•ALfrozen Userbot :** {}
-**•{}•Telethon :** {}
-**•{}•Ãbûßê     :** {}
-**•{}•ßudø      :** {}
-**•{}•Bø†       :** {}
+     **{}**
+
+━━━━━━━◇x◇━━━━━━━
+**━ Oաղer :** {}
+**━ ALfrozen Vr :** {}
+**━ Telethon Vr :** {}
+**━ Abuse       :** {}
+**━ Sudo        :** {}
+**━ Support     :** [Join](https://t.me/Alfrozen)
+━━━━━━━◇x◇━━━━━━━
 """
 
 
@@ -154,18 +154,10 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "alive":
             leg_end = alive_txt.format(
                 Config.ALIVE_MSG,
-                alive_emoji,
                 alive_name,
-                alive_emoji,
                 ROYALversion,
-                alive_emoji,
                 version.__version__,
-                alive_emoji,
-                abuse_m,
-                alive_emoji,
                 is_sudo,
-                alive_emoji,
-                Config.BOY_OR_GIRL,
             )
             alv_btn = [
                 [
