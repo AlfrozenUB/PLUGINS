@@ -70,7 +70,6 @@ alive_txt = """
 **━ Oաղer :** {}
 **━ ALfrozen Vr :** {}
 **━ Telethon Vr :** {}
-**━ Abuse       :** {}
 **━ Sudo        :** {}
 **━ Support     :** [Join](https://t.me/Alfrozen)
 ━━━━━━━◇x◇━━━━━━━
