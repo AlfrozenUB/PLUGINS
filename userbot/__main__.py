@@ -354,7 +354,7 @@ print(
 ╔════❰ALfrozen Bot❱═❍⊱❁۪۪
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
 ║┣⪼ Group - @ErinaSupport
-║┣⪼ CREATOR - @MrElliotElderson
+║┣⪼ CREATOR - @AlfrozenX
 ║┣⪼ ALFROZEN - {ROYALversion}
 ║┣⪼ ᴀʟꜰʀᴏᴢᴇɴ ᴜꜱᴇʀʙᴏᴛ
 
