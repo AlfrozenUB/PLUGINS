@@ -1,15 +1,25 @@
 import time
+from datetime import datetime
+from io import BytesIO
 
-from telethon import version
-from telethon.errors import ChatSendInlineForbiddenError as noin
-from telethon.errors.rpcerrorlist import BotMethodInvalidError as dedbot
+import requests
+from PIL import Image
 
-from ROYALBOT.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, ROYALversion
-from userbot.cmdhelp import CmdHelp
-from userbot.Config import Config
+from userbot import ALIVE_NAME, CmdHelp, ROYALversion
+from userbot.__init__ import StartTime
+from userbot.Config import Config, Vars
 
-from . import *
+CUSTOM_ALIVE = (
+    Var.CUSTOM_ALIVE_TEXT
+    if Var.CUSTOM_ALIVE_TEXT
+    else "༒︎ ᴀʟꜰʀᴏᴢᴇɴ ɪꜱ ᴀʟɪᴠᴇ ༒"
+)
+ROYAL_IMG = Var.ROYAL_IMG if Var.ROYAL_IMG else None
+alivemoji = Var.CUSTOM_ALIVE_EMOJI if Var.CUSTOM_ALIVE_EMOJI else "🖤️"
+if Config.SUDO_USERS:
+    sudo = "Enabled"
+else:
+    sudo = "Disabled"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -40,87 +50,64 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-uptime = get_readable_time((time.time() - StartTime))
-DEFAULTUSER = ALIVE_NAME or " Royal User"
-ROYAL_IMG = "https://telegra.ph/file/b4c7082f2c22283d66394.jpg"
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "Royals Choice Royalbot"
-CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@BR_guild"
-
-Royal = bot.uid
-mention = f"[{DEFAULTUSER}](tg://user?id={Royal})"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@AlfrozenX"
 
 
-@bot.on(admin_cmd(outgoing=True, pattern="royal$"))
-@bot.on(sudo_cmd(pattern="royal$", allow_sudo=True))
-async def amireallyalive(alive):
-    if alive.fwd_from:
-        return
-    reply_to_id = await reply_id(alive)
-
-    if ROYAL_IMG:
-        ROYAL_caption = f"**{CUSTOM_ALIVE_TEXT}**\n"
-
-        ROYAL_caption += f"━━━━━━━◇x◇━━━━━━━ \n"
-        ROYAL_caption += f"• **Ownwer**   : {ALIVE_NAME}\n\n"
-        ROYAL_caption += f"• **Version†** : {ROYALversion}\n"
-        ROYAL_caption += f"• **Telethon** : `{version.__version__}`\n"
-        ROYAL_caption += f"• **𝚄ρtime**   : `{uptime}`\n"
-        ROYAL_caption += f"• **𝙶𝚛𝚘𝚞𝚙**    : [𝙶𝚛𝚘𝚞𝚙](t.me/ErinaSupport)\n"
-        ROYAL_caption += f"• **𝙼𝚢 𝙶𝚛𝚘𝚞𝚙** : {CUSTOM_YOUR_GROUP}\n"
-        ROYAL_caption += f"━━━━━━━◇x◇━━━━━━━\n"
-        await alive.client.send_file(
-            alive.chat_id, ROYAL_IMG, caption=ROYAL_caption, reply_to=reply_to_id
+@bot.on(admin_cmd(outgoing=True, pattern="alive"))
+@bot.on(sudo_cmd(outgoing=True, pattern="alive", allow_sudo=True))
+async def ifiamalive(alive):
+    start = datetime.now()
+    myid = bot.uid
+    """ For .alive command, check if the bot is running.  """
+    end = datetime.now()
+    (end - start).microseconds / 1000
+    uptime = get_readable_time((time.time() - StartTime))
+    if ALV_PIC:
+        ROYAL_caption  = f"**🖤 ᴛʜᴇ ᴀʟꜰʀᴏᴢᴇɴ ᴜꜱᴇʀʙᴏᴛ 🖤️**\n\n"
+        ROYAL_caption  += f"`{CUSTOM_ALIVE}`\n\n"
+        ROYAL_caption  += f"┏━━━━━━━━━━━━━━━━━━━\n"
+        ROYAL_caption  += (
+            f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ**: `1.17`\n┣➣ **ᴘʏᴛʜᴏɴ**: `3.9.2`\n"
         )
+        ROYAL_caption  += f"┣➣ ** ᴀʟꜰʀᴏᴢᴇɴ ᴠᴇʀsɪᴏɴ**: `{ROYALversion}`\n"
+        ROYAL_caption  += f"┣➣ **ᴊᴏɪɴ**: @ErinaSupport\n"
+        ROYAL_caption  += f"┣➣ **sᴜᴅᴏ** : `{sudo}`\n"
+        ROYAL_caption  += f"┣➣ **ᴍʏ ɢʀᴏᴜᴘ**: `{CUSTOM_YOUR_GROUP}`\n"
+        )
+        rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n"
+        rizoel += "    [ʀᴇᴘᴏ](https://github.com/AlfrozenUB/AlfrozenUB)"
+        await alive.get_chat()
         await alive.delete()
-    else:
-        await edit_or_reply(
-            alive,
-            f"**{CUSTOM_ALIVE_TEXT}**\n\n"
-            f"━━━━━━━◇x◇━━━━━━━\n"
-            f"         \n"
-            f"• 𝕿єℓєτнοи : `{version.__version__}`\n"
-            f"• **Royalbot** : `{ROYALversion}`\n"
-            f"• υρτιмє   : `{uptime}`\n"
-            f"• __master__   : {mention}\n"
-            f"• σωɳεɾ     : [ℓєgєи∂](t.me/ALfrozenUB)\n",
-            f"━━━━━━━◇x◇━━━━━━━\n"
-)
+        """ For .alive command, check if the bot is running.  """
+        await borg.send_file(alive.chat_id, ALV_PIC, caption=ROYAL_caption , link_preview=False)
+        await alive.delete()
+        return
+    req = requests.get("https://telegra.ph/file/5aca70b99835227e170a0.jpg")
+    req.raise_for_status()
+    file = BytesIO(req.content)
+    file.seek(0)
+    img = Image.open(file)
+    with BytesIO() as sticker:
+        img.save(sticker, "webp")
+        sticker.name = "sticker.webp"
+        sticker.seek(0)
+        await borg.send_message(
+            alive.chat_id,
+            f"**🖤 𝗧𝗵𝗲 𝗔𝗹𝗳𝗿𝗼𝘇𝗲𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 🖤️**\n\n"
+            f"`{Config.ALIVE_MSG}`\n\n"
+            f"┏━━━━━━━━━━━━━━━━━━━\n"
+            f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ**: `1.17`\n┣➣ **ᴘʏᴛʜᴏɴ**: `3.9.2`\n"
+            f"┣➣ **ᴀʟꜰʀᴏᴢᴇɴ ᴜꜱᴇʀʙᴏᴛ ᴠᴇʀsɪᴏɴ**: `{rizoelversion}`\n"
+            f"┣➣ **ᴊᴏɪɴ**: @ErinaSUpport\n"
+            f"┣➣ **sᴜᴅᴏ** : `{sudo}`\n"
+            f"┣➣ **ᴜᴘᴛɪᴍᴇ**: `{uptime}`\n"
+            f"┣➣ __master__   : {mention}\n"
+            f"┗━━━━━━━━━━━━━━━━━━━\n\n"
+            f"[ʀᴇᴘᴏ](https://github.com/AlfrozenUserbot/Rizoeluserbot)",
+            link_preview=False,
+        )
+        await borg.send_file(alive.chat_id, file=sticker)
+        await alive.delete()
 
 
-msg = f"""
-**  ⚜️ AlfrozenUB ιѕ ONLINE ⚜️**
-
-       {Config.ALIVE_MSG}
-    **  Bø✞︎ ẞ✞︎α✞︎µѕ **
-**• Owner     :** **{mention}**
-**• AlfrozenUB  :** {ROYALversion}
-**• Telthon  :** {version.__version__}
-**• Abuse     :**  {abuse_m}
-**• Sudo      :**  {is_sudo}
-**• Bot       :** {Config.BOY_OR_GIRL}
-"""
-botname = Config.BOT_USERNAME
-
-
-@bot.on(admin_cmd(pattern="alive$"))
-@bot.on(admin_cmd(pattern="alive$", allow_sudo=True))
-async def royal_a(event):
-    try:
-        royal = await bot.inline_query(botname, "alive")
-        await royal[0].click(event.chat_id)
-        if event.sender_id == Samim3316:
-            await event.delete()
-    except (noin, dedbot):
-        await eor(event, msg)
-
-
-
-CmdHelp("alive").add_command("bot", None, "υѕє αи∂ ѕєє").add_command(
-    "royal", None, "Its Same Like Alive"
-).add_command("alive", None, "Its Show ur Alive Template").add_warning(
-    "Harmless Module✅"
-).add_info(
-    "Checking Alive"
-).add_type(
-    "Official"
-).add()
+CmdHelp.update({"alive": "➨ `.alive`\nUse - Check is it Alive or Dead(RIP)."})
