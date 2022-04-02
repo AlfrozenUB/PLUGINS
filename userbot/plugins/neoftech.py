@@ -6,8 +6,8 @@ import os
 import asyncio
 
 
-@Rizoeluserbot.on(admin_cmd(outgoing=True, pattern="neofetch"))
-@Rizoeluserbot.on(sudo_cmd(outgoing=True, pattern="neofetch", allow_sudo=True))
+@bot.on(admin_cmd(outgoing=True, pattern="neofetch"))
+@bot.on(sudo_cmd(outgoing=True, pattern="neofetch", allow_sudo=True))
 async def neofetchdetails(neofetch):
     """Neofetch For AlfrozenUserbot"""
     if not neofetch.text[0].isalpha() and neofetch.text[0] not in ("/", "#", "@", "!"):
