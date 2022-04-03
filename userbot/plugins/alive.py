@@ -74,8 +74,8 @@ async def ifiamalive(alive):
         ROYAL_caption  += f"┣➣ **sᴜᴅᴏ** : `{sudo}`\n"
         ROYAL_caption  += f"┣➣ **ᴍʏ ɢʀᴏᴜᴘ**: `{CUSTOM_YOUR_GROUP}`\n"
         )
-        rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n"
-        rizoel += "    [ʀᴇᴘᴏ](https://github.com/AlfrozenUB/AlfrozenUB)"
+        ROYAL_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
+        ROYAL_caption += "[ʀᴇᴘᴏ](https://github.com/AlfrozenUB/AlfrozenUB)"
         await alive.get_chat()
         await alive.delete()
         """ For .alive command, check if the bot is running.  """
